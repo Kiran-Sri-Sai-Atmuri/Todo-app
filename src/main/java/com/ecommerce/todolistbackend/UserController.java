@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/users")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://todoapp-git-main-akiransrisai-8374s-projects.vercel.app'")
+@CrossOrigin(origins = "https://todoapp-git-main-akiransrisai-8374s-projects.vercel.app")
 public class UserController {
 
     private final UserService service;

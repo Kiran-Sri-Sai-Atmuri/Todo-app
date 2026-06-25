@@ -9,7 +9,7 @@ import java.util.Objects;
 import java.util.Random;
 import java.util.stream.Stream;
 
-@CrossOrigin(origins = "https://todoapp-git-main-akiransrisai-8374s-projects.vercel.app'")
+@CrossOrigin(origins = "https://todoapp-git-main-akiransrisai-8374s-projects.vercel.app")
 @RestController
 @RequestMapping("/tasks")
 @RequiredArgsConstructor
