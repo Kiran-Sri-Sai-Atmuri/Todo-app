@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "https://todoapp-git-main-akiransrisai-8374s-projects.vercel.app")
 public class AuthController {
     private final JwtService service;
     private final UserService userService;
