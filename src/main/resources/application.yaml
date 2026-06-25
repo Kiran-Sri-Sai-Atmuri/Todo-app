@@ -2,9 +2,9 @@ spring:
   application:
     name: ToDoListBackend
   datasource:
-    url: jdbc:postgresql://ep-blue-cherry-aq7u8gm4-pooler.c-8.us-east-1.aws.neon.tech/orders?sslmode=require&channel_binding=require
-    username: neondb_owner
-    password: npg_hxusF3im5EfN
+    url: ${DATABASEURL}
+    username: ${DATABASEUSERNAME}
+    password: ${DATABASEPASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
